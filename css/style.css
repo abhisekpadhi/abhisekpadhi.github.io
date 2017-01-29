@@ -5,6 +5,26 @@
  *
  */
 
+ .hero-photo {
+   border-radius: 100px;
+    position: relative;
+    margin-left: 40%;
+    margin-right: 40%;
+    height:210px;
+ }
+ .social-icons h4 {
+    font-size: 2.28rem;
+    line-height: 110%;
+    margin: 1.5rem 0 3rem 0;
+}
+ .hero img.responsive-img {
+   height: 210px !important;
+ }
+ .hero {
+   background: #004d40; /* fallback for old browsers */
+   background: -webkit-linear-gradient(to left, #00695c , #004d40); /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #00695c , #004d40); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ }
 .icon-block {
   padding: 0 15px;
 }
@@ -22,11 +42,23 @@
   display: block;
   color: #333333;
 }
+
+nav i.fa {
+  margin-right: 5px;
+}
+.hero i.fa {
+  margin:0 5px;
+  vertical-align: middle;
+}
 @media only screen and (max-width: 768px) {
   .social-icons-text {
     display: none;
   }
   .social-icons .btn {
     height: initial;
+  }
+  .hero-photo {
+     margin-left: 20%;
+     margin-right: 20%;
   }
 }
