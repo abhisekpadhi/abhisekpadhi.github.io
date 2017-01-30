@@ -4,7 +4,11 @@
  * the core Materialize files in the future
  *
  */
-
+ body {
+   background: #004d40; /* fallback for old browsers */
+   background: -webkit-linear-gradient(to left, #00695c , #004d40); /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #00695c , #004d40); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ }
  .hero-photo {
    border-radius: 100px;
     position: relative;
@@ -17,26 +21,19 @@
  }
  .card-content h5 {
    color: white !important;
-   padding-top: 25px;   
+   padding-top: 25px;
  }
  .card-content img {
    border-radius: 100px;
  }
+
  .social-icons h4 {
     font-size: 2.28rem;
     line-height: 110%;
     margin: 1.5rem 0 3rem 0;
 }
-.project-cards .card-content p {
-  color: white;
-}
  .hero img.responsive-img {
    height: 210px !important;
- }
- .hero {
-   background: #004d40; /* fallback for old browsers */
-   background: -webkit-linear-gradient(to left, #00695c , #004d40); /* Chrome 10-25, Safari 5.1-6 */
-   background: linear-gradient(to right, #00695c , #004d40); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
  }
 .icon-block {
   padding: 0 15px;
@@ -74,4 +71,10 @@ nav i.fa {
      margin-left: 20%;
      margin-right: 20%;
   }
+  .social-icons {
+    margin: 0 5px 0 10px;
+  }
+  .social-icons .btn {
+    padding: 0 10px;
+}
 }

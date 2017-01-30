@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 </head>
 <body>
-  <div class="navbar-fixed">
+<div class="navbar-fixed">
   <nav class="teal darken-3" role="navigation">
     <div class="nav-wrapper container">
       <!-- <a id="logo-container" href="#" class="brand-logo">Logo</a> -->
@@ -62,9 +62,13 @@
   </nav>
 </div>
 
-  <div class="section no-pad-bot hero" id="index-banner">
-    <div class="container">
-      <br><br>
+<h2 id="resume" style="display: none;"></h2>
+<br>
+
+<div class="section no-pad-bot hero" id="index-banner">
+  <div class="container">
+    <div class="section resume">
+      <br>
       <div class="row center">
         <div class="col s12">
           <img class="hero-photo z-depth-5 responsive-img center-align" width="200" src="images/AbhisekPadhi.jpg" style="border-radius: 100px;">
@@ -83,23 +87,46 @@
           </div>
         </div>
       </div>
-    <br><br>
-
+      <br><br>
+    </div>
   </div>
 </div>
 
-<h2 id="about"></h2>
-<br><br>
+<h2 id="about" style="display: none;"></h2>
 
-<h2 id="projects"></h2>
+<div class="container">
+  <div class="section about">
+    <div class="row">
+      <br>
+      <div class="col s12">
+
+        <div class="card horizontal">
+
+          <div class="card-stacked z-depth-4">
+            <div class="card-content">
+              <h2 class="header center">ABOUT ME</h2>
+              <p>
+                Hi, I'm Abhisek Padhi. Born and brought up in temple city Bhubaneswar of Odisha state in India.
+                Electrical engineer by training and web developer and DevOps engineer by interest.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h2 id="projects" style="display: none;"></h2>
 <br><br>
 
 <div clas="container">
   <div class="section project-cards">
     <div class="row">
-      <h2 class="center"> PROJECTS </h2> <br>
+      <h2 class="center white-text"> PROJECTS </h2> <br>
       <div class="col s12 m6 l6">
-        <div class="card teal darken-3 project-card-single-1">
+        <div class="card teal darken-4 project-card-single-1 z-depth-4">
           <div class="card-content">
             <div class="row">
               <div class="col s12 m4 l4 center">
@@ -112,20 +139,70 @@
           </div>
           <div class="card-tabs">
             <ul class="tabs tabs-fixed-width tabs-transparent">
-              <li class="tab"><a href="#test4">About</a></li>
-              <li class="tab"><a class="active" href="#test5">Tech</a></li>
+              <li class="tab"><a class="active" href="#test4">About</a></li>
+              <li class="tab"><a href="#test5">Tech</a></li>
               <li class="tab"><a href="#test6">Links</a></li>
             </ul>
           </div>
           <div class="card-content grey lighten-4">
-            <div id="test4">Test 1</div>
-            <div id="test5">Test 2</div>
-            <div id="test6">Test 3</div>
+            <div id="test4">
+              <p>
+                Grozip is a technology focused on-demand hyper-local delivery company facilitating doorstep delivery of groceries and other home essentials in major cities of India.
+                The technology driven business model of Grozip powers delivering groceries to customers in as little as 3 hours,
+                making it one of the most promising and futuristic company of India.
+              </p>
+            </div>
+            <div id="test5">
+              <strong> Hosting (AWS):</strong>
+              <span class="tooltipped chip" data-tooltip="Virtual Private Cloud"> VPC </span>
+              <span class="tooltipped chip" data-tooltip="Elastic Compute Cloud"> EC2 </span>
+              <span class="tooltipped chip" data-tooltip="Relational Database Services"> RDS </span>
+              <span class="tooltipped chip" data-tooltip="DNS Service"> Route53 </span>
+              <span class="tooltipped chip" data-tooltip="Elastic Load Balancer"> ELB </span>
+              <span class="tooltipped chip" data-tooltip="AutoScaling"> AutoScaling </span>
+              <span class="tooltipped chip" data-tooltip="Elastic File System"> EFS </span>
+              <span class="tooltipped chip" data-tooltip="Simple Email Service"> SES </span>
+              <span class="tooltipped chip" data-tooltip="Simple Storage Service"> S3 </span>
+              <span class="tooltipped chip" data-tooltip="Simple Notification Service"> SNS </span>
+              <span class="tooltipped chip" data-tooltip="Elasticache"> EC </span>
+              <span class="tooltipped chip" data-tooltip="CloudFormation"> CF </span>
+              <span class="tooltipped chip" data-tooltip="CloudWatch"> CW </span>
+              <br><br>
+              <strong> Stack:</strong>
+              <span class="tooltipped chip" data-tooltip="Ubuntu"> Linux </span>
+              <span class="tooltipped chip" data-tooltip="Nginx Web Server"> Nginx </span>
+              <span class="tooltipped chip" data-tooltip="MySQL Compatible Database"> MariaDB </span>
+              <span class="tooltipped chip" data-tooltip="In-Memory Object Caching"> Redis </span>
+              <span class="tooltipped chip" data-tooltip="PHP FastCGI Process Manager"> PHP-FPM </span>
+              <span class="tooltipped chip" data-tooltip="HipHop Virtual Machine"> HHVM </span>
+              <span class="tooltipped chip" data-tooltip="Scalable Network FileSystem"> GlusterFS </span>
+              <span class="tooltipped chip" data-tooltip="Elastic File System"> Git </span>
+              <span class="tooltipped chip" data-tooltip="Configuration Mangement"> Chef </span>
+              <span class="tooltipped chip" data-tooltip="Dashboarding"> Grafana </span>
+              <span class="tooltipped chip" data-tooltip="Uptime Monitor"> Uptime Robot </span>
+              <span class="tooltipped chip" data-tooltip="Simple Email Service"> Docker </span>
+              <span class="tooltipped chip" data-tooltip="Piwik: Self Hosted Analytics, GA: Google Analytics"> Piwik & GA </span>
+              <span class="tooltipped chip" data-tooltip="Simple Storage Service"> Twilio </span>
+              <br><br>
+              <strong> Frameworks & API's:</strong>
+              <span class="tooltipped chip" data-tooltip="WordPress"> WP </span>
+              <span class="tooltipped chip" data-tooltip="eCommerce With Wordpress"> WooCommerce </span>
+              <span class="tooltipped chip" data-tooltip="CSS Framework"> Bootstrap </span>
+              <span class="tooltipped chip" data-tooltip="Javascript UI Library"> jQuery </span>
+              <span class="tooltipped chip" data-tooltip="Backbone.js for search feature"> Backbone.js </span>
+              <span class="tooltipped chip" data-tooltip="Templating"> Handlebar.js </span>
+
+            </div>
+            <div id="test6">
+              <a class="waves-effect waves-light btn teal darken-3" href="https://grozip.com"><i class="fa fa-globe" aria-hidden="true"></i> Visit Website</a>
+              <br><br>
+              <a class="waves-effect waves-light btn teal darken-3" href="https://stackshare.io/grozip/grozip"><i class="fa fa-stack-overflow" aria-hidden="true"></i> View Full Stack</a>
+            </div>
           </div>
         </div>
       </div>
       <div class="col s12 m6 l6">
-        <div class="card teal darken-3 project-card-single-2">
+        <div class="card teal darken-4 project-card-single-2 z-depth-4">
           <div class="card-content">
             <div class="row">
               <div class="col s12 m4 l4 center">
@@ -138,15 +215,46 @@
           </div>
           <div class="card-tabs">
             <ul class="tabs tabs-fixed-width tabs-transparent">
-              <li class="tab"><a href="#test7">About</a></li>
-              <li class="tab"><a class="active" href="#test8">Tech</a></li>
+              <li class="tab"><a class="active" href="#test7">About</a></li>
+              <li class="tab"><a  href="#test8">Tech</a></li>
               <li class="tab"><a href="#test9">Links</a></li>
             </ul>
           </div>
           <div class="card-content grey lighten-4">
-            <div id="test7">Test 1</div>
-            <div id="test8">Test 2</div>
-            <div id="test9">Test 3</div>
+            <div id="test7">
+              <p>
+                ScrollStory is one of the brand new blogs’ on the web with focus on personal and consumer technology including web tools and gadgets and some times geeky bit’s of code for nerds, with Analysis, Reviews and Lifehacks.
+                Our aim is to make the life of our readers simpler and easier with the help of technology solutions. We let others to create the noise while we strive to separate out the signals.
+              </p>
+            </div>
+            <div id="test8">
+              <strong> Hosting (AWS):</strong>
+              <span class="tooltipped chip" data-tooltip="Virtual Private Cloud"> VPC </span>
+              <span class="tooltipped chip" data-tooltip="Elastic Compute Cloud"> EC2 </span>
+              <span class="tooltipped chip" data-tooltip="Relational Database Services"> RDS </span>
+              <span class="tooltipped chip" data-tooltip="DNS Service"> Route53 </span>
+              <span class="tooltipped chip" data-tooltip="Simple Email Service"> SES </span>
+              <span class="tooltipped chip" data-tooltip="Simple Storage Service"> S3 </span>
+              <span class="tooltipped chip" data-tooltip="Simple Notification Service"> SNS </span>
+              <br><br>
+              <strong> Stack:</strong>
+              <span class="tooltipped chip" data-tooltip="Ubuntu"> Linux </span>
+              <span class="tooltipped chip" data-tooltip="Nginx Web Server"> Nginx </span>
+              <span class="tooltipped chip" data-tooltip="MySQL Compatible Database"> MariaDB </span>
+              <span class="tooltipped chip" data-tooltip="In-Memory Object Caching"> Redis </span>
+              <span class="tooltipped chip" data-tooltip="PHP FastCGI Process Manager"> PHP-FPM </span>
+              <span class="tooltipped chip" data-tooltip="Uptime Monitor"> Uptime Robot </span>
+              <br><br>
+              <strong> Frameworks & API's:</strong>
+              <span class="tooltipped chip" data-tooltip="WordPress"> WP </span>
+              <span class="tooltipped chip" data-tooltip="CSS Framework"> Bootstrap </span>
+              <span class="tooltipped chip" data-tooltip="Javascript UI Library"> jQuery </span>
+              <span class="tooltipped chip" data-tooltip="Monetization with contextual ads by Google"> Adsense </span>              
+            </div>
+            <div id="test9">
+              <a class="waves-effect waves-light btn teal darken-3" href="https://scrollstory.com"><i class="fa fa-globe" aria-hidden="true"></i> Visit Website</a>
+              <br><br>
+            </div>
           </div>
         </div>
       </div>
@@ -154,101 +262,52 @@
   </div>
 </div>
 
-<h2 id="resume"></h2>
+<h2 id="contact" style="display: none;"></h2>
 <br><br>
-<div class="container">
-  <div class="section resume">
 
-    <!--   Icon Section   -->
-    <div class="row">
-      <div class="col s12 m4">
-        <div class="icon-block">
-          <h2 class="center light-blue-text"><i class="fa fa-bolt" aria-hidden="true"></i></h2>
-          <h5 class="center">Speeds up development</h5>
-
-          <!-- <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p> -->
-        </div>
-      </div>
-
-      <div class="col s12 m4">
-        <div class="icon-block">
-          <h2 class="center light-blue-text"><i class="fa fa-users" aria-hidden="true"></i></h2>
-          <h5 class="center">User Experience Focused</h5>
-
-          <!-- <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p> -->
-        </div>
-      </div>
-
-      <div class="col s12 m4">
-        <div class="icon-block">
-          <h2 class="center light-blue-text"><i class="fa fa-cogs" aria-hidden="true"></i></h2>
-          <h5 class="center">Easy to work with</h5>
-
-          <!-- <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p> -->
-        </div>
-      </div>
-    </div>
-
-  </div>
-  <br><br>
-</div>
-
-<h2 id="contact"></h2>
-<br><br>
-<footer class="page-footer teal darken-3">
+<footer class="page-footer teal darken-2">
+  <h2 style="text-align: center; color: white;"> CONTACT ME </h2>
+  <p class="center white-text">
+    <a class="yellow-text" href="tel:09439831236">+91-9439831236 </a>
+    |
+    <a class="yellow-text" href="mailto:heyabhisek@gmail.com">heyabhisek[at]gmail[dawt]com</a>
+  </p>
   <div class="container social-icons">
     <div class="row">
-      <h2 style="text-align: center; color: white;"> CONTACT ME </h2><br>
-      <div class="col s3">
+      <br>
+      <div class="col s2">
         <a class="waves-effect waves-light btn grey lighten-1" href="https://linkedin.com/in/AbhisekPadhi">
           <i class="fa fa-linkedin" aria-hidden="true"></i> <span class="social-icons-text"> LinkedIn </span>
         </a>
       </div>
-      <div class="col s3">
+      <div class="col s2">
         <a class="waves-effect waves-light btn grey lighten-1" href="https://github.com/abhisekpadhi">
           <i class="fa fa-github" aria-hidden="true"></i> <span class="social-icons-text"> Github </span>
         </a>
       </div>
-      <div class="col s3">
+      <div class="col s2">
         <a class="waves-effect waves-light btn grey lighten-1" href="https://twitter.com/abhisekpadhi">
           <i class="fa fa-twitter" aria-hidden="true"></i> <span class="social-icons-text"> Twitter </span>
         </a>
       </div>
-      <div class="col s3">
+      <div class="col s2">
         <a class="waves-effect waves-light btn grey lighten-1" href="https://angel.co/abhisekpadhi">
           <i class="fa fa-angellist" aria-hidden="true"></i> <span class="social-icons-text"> Angel </span>
         </a>
       </div>
+      <div class="col s2">
+        <a class="waves-effect waves-light btn grey lighten-1" href="tel:09439831236">
+          <i class="fa fa-phone" aria-hidden="true"></i> <span class="social-icons-text"> Phone </span>
+        </a>
+      </div>
+      <div class="col s2">
+        <a class="waves-effect waves-light btn grey lighten-1" href="mailto:heyabhisek@gmail.com">
+          <i class="fa fa-envelope" aria-hidden="true"></i> <span class="social-icons-text"> Email </span>
+        </a>
+      </div>
     </div>
   </div>
-  <!-- <div class="container">
-  <div class="row">
-  <div class="col l6 s12">
-  <h5 class="white-text">Company Bio</h5>
-  <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
 
-
-</div>
-<div class="col l3 s12">
-<h5 class="white-text">Settings</h5>
-<ul>
-<li><a class="white-text" href="#!">Link 1</a></li>
-<li><a class="white-text" href="#!">Link 2</a></li>
-<li><a class="white-text" href="#!">Link 3</a></li>
-<li><a class="white-text" href="#!">Link 4</a></li>
-</ul>
-</div>
-<div class="col l3 s12">
-<h5 class="white-text">Connect</h5>
-<ul>
-<li><a class="white-text" href="#!">Link 1</a></li>
-<li><a class="white-text" href="#!">Link 2</a></li>
-<li><a class="white-text" href="#!">Link 3</a></li>
-<li><a class="white-text" href="#!">Link 4</a></li>
-</ul>
-</div>
-</div>
-</div> -->
 <div class="footer-copyright teal darken-4">
   <div class="container">
     &copy;Copyright <strong> <a href="#" style="color: white;">Abhisek Padhi</a> </strong>. All rights reserved.
