@@ -126,7 +126,9 @@ nav i.fa {
 .hire-me-btn {
   color:#FFF;
   padding: 10px 35px;
-  margin: 40px 0;
-  width: 90%;
 }
+
+}
+nav i.fa-bars {
+  font-size: 2em !important;
 }
