@@ -1,3 +1,3 @@
 # abhisekpadhi.github.io
 
-visit https://abhisekpadhi.github.io/
+visit https://abhisek.padhi.io
